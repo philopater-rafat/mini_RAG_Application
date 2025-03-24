@@ -3,7 +3,7 @@ Minimal Implementation of RAG Model for Question Answering.
 
 ## Requirements
 - Python version 3.11 or later.
-### Install python using Minicond:
+### Install python using Miniconda:
 #### (Optional) for better readability in command line (to start writing commands from the next line use the following command) :
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
@@ -18,3 +18,14 @@ $ conda create -n miniRAG python=3.11
 ```bash
 $ conda activate miniRAG
 ```
+
+## Installation
+### Install the required packages using the following command:
+```bash
+$ pip install -r requirements.txt
+```
+### Setup the environment variables
+```bash
+$ cp .env.example .env
+```
+Set your environment variables in the `.env` file. Like `OPENAI_API_KEY` value.
