@@ -22,23 +22,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "welcome-request1",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{api}}/welcome1",
-					"host": [
-						"{{api}}"
-					],
-					"path": [
-						"welcome1"
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"event": [
