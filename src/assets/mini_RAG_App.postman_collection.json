@@ -12,12 +12,44 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{api}}/welcome",
+					"raw": "{{api}}/api/v1",
 					"host": [
 						"{{api}}"
 					],
 					"path": [
-						"welcome"
+						"api",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/hp/Desktop/test.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{api}}/api/v1/data/upload/1",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"data",
+						"upload",
+						"1"
 					]
 				}
 			},
